@@ -1,0 +1,156 @@
+/* font-family: 'Inter',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Rubik',
+sans-serif;
+font-family: 'Ubuntu',
+sans-serif; */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    text-decoration: none;
+    padding: 24px 0px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.aside {
+    display: flex;
+    width: 300px;
+    height: 998px;
+    padding: 0px 18px 32px 18px;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    gap: 48px;
+    background: var(--base-black, #080325);
+}
+
+.img-union {
+    margin: 0px 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 0px;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ul-item {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 24px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.image {
+    margin: 0px 20px;
+}
+
+.content:nth-child(6) {
+    align-items: flex-end;
+}
+
+.list:nth-child(2) {
+    justify-content: bottom;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.top-navbar {
+    display: flex;
+    padding: 36px 48px;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid var(--neutral-40, #E2E8F0);
+    background: var(--base-white, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 {
+    width: 1486px;
+    position: relative;
+    margin-left: 336px;
+}
+
+.main {
+
+    padding: 36px 48px;
+    align-items: center;
+    gap: 95px;
+
+}
+
+.adrian {
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    padding: 0px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.hi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment {
+    color: var(--neutral-90, #344055);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.768px;
+}
+
+.hi-adrian {
+    height: 160px;
+    padding: 16px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+}
